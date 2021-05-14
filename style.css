@@ -12,6 +12,6 @@ hr{
 
 li:first-child{font-weight: bold;}
 
-[target]::after{content: " 👉🏾";}
+[target="_blank"]::after{content: " 👉🏾";}
 
 li:nth-child(2n+1){font-style: italic;}
