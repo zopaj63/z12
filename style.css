@@ -1,0 +1,17 @@
+body{
+    background: bisque;
+    color: brown;
+}
+
+hr{
+    height: 1px; 
+    border-width: 0; 
+    background-color:brown; 
+    width: 100%;
+}
+
+li:first-child{font-weight: bold;}
+
+[target]::after{content: " 👉🏾";}
+
+li:nth-child(2n+1){font-style: italic;}
